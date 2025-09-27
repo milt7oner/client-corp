@@ -95,7 +95,7 @@
       const model = formData.get("model");
 
       try {
-        const response = await fetch(`https://randomforest-corp.onrender.com//predict?model=${model}`, {
+        const response = await fetch(`https://randomforest-corp.onrender.com/predict?model=${model}`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(data),
